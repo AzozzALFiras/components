@@ -34,3 +34,24 @@
 ```html
 <x-input-with-label label="Username" name="username" required type="text" />
 ```
+
+
+# Table
+
+```html
+<x-table title="Basic Table" description="Add class .table">
+<x-table-header>
+<th>Profile</th>
+<th>VatNo.</th>
+<th>Created</th>
+<th>Status</th>
+</x-table-header>
+<x-table-row>
+<td>Jacob</td>
+<td>53275531</td>
+<td>12 May 2017</td>
+<td><label class="badge badge-danger">Pending</label></td>
+</x-table-row>
+<!-- Add more rows as needed -->
+</x-table>
+```
