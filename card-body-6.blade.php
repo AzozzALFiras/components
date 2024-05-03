@@ -8,7 +8,7 @@
              <p class="card-description">{{ $description }}</p>
              <form class="forms-sample" action="{{ $route }}" method="{{ $method }}">
                  {{ $slot }}
-                 <x-button-gradient>@lang('messages.Submit')</x-button-gradient>
+                 <x-buttons-class className="success">Submit</x-buttons-class>
                </form>
          </div>
      </div>
